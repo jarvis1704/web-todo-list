@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #e1f6fe;
+  font-family: 'Oxygen', sans-serif;
+}
+nav{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+nav>.heading{
+  flex-basis: 80%;
+  text-align: center;
+  position: relative;
+  left: 5rem;
+  color: #4a4a4a ;
+  font-size: 1.3rem;
+}
+nav>.linkbutton{
+  flex-basis: 15%;
+  padding: 10px;
+  text-align: center;
+}
+.githubsourcebtn{
+  padding: 18px 20px;
+  border-radius: 5px;
+  border: 1px solid #4a4a4a;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.githubsourcebtn:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #4a4a4a;
+}
+.githubsourcebtn:active{
+  position: relative;
+  top: 3px;
+}
+section{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contentarea{
+  box-shadow: 0 0 50px lightgray;
+  padding: 15px;
+  min-height: 100px;
+  height: auto;
+}
+.taskarea{
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.taskdescription{
+  width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  background-color: #e6f7ff;
+}
+.taskadder{
+  padding: 10px;
+  margin: 0 50px;
+  border-radius: 8px;
+  background-color: #56b44f9c;
+  border: 1px solid white;
+  box-shadow: 0 0 5px rgba(52, 159, 52, 0.768);
+}
+.taskadder:active{
+  position: relative;
+  top: 3px;
+}
+.tasks{
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: medium;
+}
+.addedtasks{
+  margin-bottom: 10px;
+}
+.completedtasks{
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: small;
+  text-decoration: line-through;
+}
+.completedtask{
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: small;
+  text-decoration: line-through;
+}
+footer{
+  position: static;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  color: #3b3b32;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+footer a{
+  text-decoration: none;
+  color: #3b3b32;
+  font-weight: bold;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+footer a i{
+  font-size: 15px;
+  margin-right: 5px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+footer .endnote{
+  font-size: 12px;
+}
+footer a:hover i{
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
